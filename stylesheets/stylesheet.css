@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Lato';
-    src: url('../fonts/Lato-Hairline.ttf') format('truetype');
-    font-weight: 100;
+    src: url('../fonts/Lato-Light.ttf') format('truetype');
+    font-weight: lighter;
     font-style: normal;
 }
 
@@ -147,7 +147,7 @@ footer {
     margin-bottom: 50px;
     font-size: 14px;
     text-align: center;
-    /*font-weight: 200;*/
+    font-weight: 200;
 }
 
 footer > a {
@@ -194,7 +194,8 @@ footer > a:hover {
         letter-spacing: 2.0em;
     }
     footer {
-        margin-bottom: 28px
+        margin-bottom: 28px;
+        font-weight: normal;
     }
 }
 
