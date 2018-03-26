@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Hairline.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/BarlowCondensedBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/BarlowCondensedExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: lato, helvetica, roboto, calibri, pingfang sc, hiragino sans gb, noto sans cjk sc, microsoft yahei, sans-serif;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+html {
+    background: #FDFDFD;
+}
+
+body {
+    margin: 0;
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+}
+
+a:-webkit-any-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.follow-sns {
+    float: right;
+    padding: 16px 14px 0 0;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-align: center;
+}
+
+.follow-sns p {
+    margin-right: 5px;
+}
+
+.social {
+    font-size: 27px;
+    margin: 12px;
+    color: #fff;
+    opacity: 0.85;
+    text-decoration: none !important;
+}
+
+.social:hover {
+    opacity: 1;
+}
+
+.icon-facebook {
+    font-size: 24px;
+    margin-left: 4px;
+}
+
+.icon-google-plus-square {
+    margin-left: 2px;
+}
+
+.icon-weibo {
+    margin-left: 7px;
+    font-size: 28px;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#key-visual {
+    margin: 20px 0 0 36px;
+}
+
+#key-visual h1,
+#key-visual p {
+    text-align: center;
+}
+
+#key-visual h1 {
+    font: 700 72px/1em Barlow, sans-serif;
+    letter-spacing: 0.65em;
+    /*transform: scale(1, 1.05);*/
+    color: #fff;
+}
+
+#key-visual p {
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: normal;
+    background-size: contain;
+    color: rgba(255, 255, 255, 0.85);
+    letter-spacing: 2.5em;
+}
+
+#key-visual p.win {
+    color: rgba(255, 255, 255, 0);
+    background: url(../images/hello-word.svg) no-repeat center;
+    background-position: 46%;
+    background-size: 36%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 50px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 200;
+}
+
+footer > a {
+    color: rgba(255, 255, 255, 0.75) !important;
+    text-decoration: none !important;
+}
+
+footer > a:hover {
+    color: rgba(255, 255, 255, 0.95) !important;
+}
+
+@media (max-width: 768px) {
+    #key-visual {
+        margin: -40px 0 0 20px;
+    }
+    #key-visual h1 {
+        font-size: 56px;
+        transform: scale(1, 1);
+    }
+    #key-visual p {
+        font-size: 28px;
+        margin: 36px 0 0 10px;
+    }
+}
+
+@media (max-width: 420px) {
+    .follow-sns {
+        display: none;
+    }
+    #key-visual {
+        margin: -20px 0 0 12px;
+    }
+    #key-visual h1 {
+        font-size: 30px;
+        margin-left: 8px;
+    }
+    #key-visual h1 span.space {
+        font-size: 0.5em;
+        letter-spacing: 0.8em;
+    }
+    #key-visual p {
+        font-size: 16px;
+        margin: 32px 0 0 14px;
+        letter-spacing: 2.0em;
+    }
+    footer {
+        margin-bottom: 28px
+    }
+}
+
+@media (max-width: 380px) {
+    #key-visual {
+        margin: -20px 0 0 10px;
+    }
+    #key-visual h1 {
+        font-size: 26px;
+    }
+    #key-visual p {
+        font-size: 14px;
+        margin: 28px 0 0 10px;
+        letter-spacing: 1.85em;
+    }
+    footer {
+        font-size: 12px;
+        margin-bottom: 38px
+    }
+}
+
+@media (max-width: 320px) {
+    #key-visual {
+        margin: -20px 0 0 8px;
+    }
+    #key-visual h1 {
+        font-size: 24px;
+    }
+    #key-visual p {
+        font-size: 14px;
+        margin: 26px 0 0 8px;
+        letter-spacing: 1.65em;
+    }
+}
