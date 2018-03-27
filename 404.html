@@ -126,26 +126,19 @@
 		}
 
 		#key-visual h1 {
-		    font: 700 72px/1em Barlow, sans-serif;
-		    letter-spacing: 0.65em;
+		    font: 700 56px/1em Barlow, sans-serif;
+		    letter-spacing: 0.5em;
 		    /*transform: scale(1, 1.05);*/
 		    color: #fff;
 		}
 
 		#key-visual p {
 		    margin-top: 50px;
-		    font-size: 28px;
+		    font-size: 18px;
 		    font-weight: normal;
 		    background-size: contain;
 		    color: rgba(255, 255, 255, 0.85);
-		    letter-spacing: 2.5em;
-		}
-
-		#key-visual p.win {
-		    color: rgba(255, 255, 255, 0);
-		    background: url(./images/hello-word.svg) no-repeat center;
-		    background-position: 46%;
-		    background-size: 36%;
+		    letter-spacing: 1.5em;
 		}
 
 		footer {
@@ -189,7 +182,7 @@
 		        margin: -20px 0 0 12px;
 		    }
 		    #key-visual h1 {
-		        font-size: 30px;
+		        font-size: 24px;
 		        margin-left: 8px;
 		    }
 		    #key-visual h1 span.space {
@@ -197,7 +190,7 @@
 		        letter-spacing: 0.8em;
 		    }
 		    #key-visual p {
-		        font-size: 16px;
+		        font-size: 12px;
 		        margin: 32px 0 0 14px;
 		        letter-spacing: 2.0em;
 		    }
@@ -212,10 +205,10 @@
 		        margin: -20px 0 0 10px;
 		    }
 		    #key-visual h1 {
-		        font-size: 26px;
+		        font-size: 20px;
 		    }
 		    #key-visual p {
-		        font-size: 14px;
+		        font-size: 12px;
 		        margin: 28px 0 0 10px;
 		        letter-spacing: 1.85em;
 		    }
@@ -230,7 +223,7 @@
 		        margin: -20px 0 0 8px;
 		    }
 		    #key-visual h1 {
-		        font-size: 24px;
+		        font-size: 22px;
 		    }
 		    #key-visual p {
 		        font-size: 14px;
@@ -254,25 +247,13 @@
     </header>
     <div id="container">
         <div id="key-visual">
-            <h1 style="font-size: 56px; letter-spacing: 0.5em;">PAGE<span class="space"> </span>NOT<span class="space"> </span>FOUND</h1>
-            <p id="zh" style="font-size: 20px; letter-spacing: 1.5em;">未找到您要访问的页面</p>
+            <h1>PAGE<span class="space"> </span>NOT<span class="space"> </span>FOUND</h1>
+            <p>未找到您想要访问的页面</p>
         </div>
     </div>
     <footer>
         <a href="mailto:mail@daspoet.com">mail@daspoet.com</a>
-    </footer>
-
-    <script>
-        if (navigator.appVersion.indexOf("Win") != -1) document.getElementById('zh').classList.add('win');
-    </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49553318-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-49553318-1');
-    </script>
+</footer>
 
 </body>
 
