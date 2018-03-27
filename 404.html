@@ -1,50 +1,49 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>HTTP 404</title>
-		<style type="text/css">
-			html, body {
-				width: 100%;
-				height: 100%;
-			}
+<title>Page Not Found</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-			body {
-				margin: 0;
-				font-family: helvetica, sans-serif;
-				background: #FDFDFD;
-			}
+<head>
+    <link rel="stylesheet" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="stylesheets/iconstyle.css">
+    <style type="text/css">
 
-			a:-webkit-any-link {
-				text-decoration: none;
-				color: inherit;
-			}
+    </style>
+</head>
 
-			.error {
-				width: 100%;
-				height: 100%;
-				display: -webkit-box;
-				-webkit-box-pack: center;
-				-webkit-box-align: center;
-				-webkit-box-orient: vertical;
-			}
+<body>
+    <header>
+        <div class="follow-sns">
+            <a href="http://twitter.com/dreamygoal" target="_blank" class="social icon-twitter"></a>
+            <a href="http://facebook.com/dreamygoal" target="_blank" class="social icon-facebook"></a>
+            <!-- <a href="http://weibo.com/dreamygoal" target="_blank" class="social icon-weibo"></a> -->
+            <a href="http://linkedin.com/in/thgao" target="_blank" class="social icon-linkedin-square"></a>
+            <a href="http://google.com/+dreamygoal" target="_blank" class="social icon-google-plus-square"></a>
+        </div>
+    </header>
+    <div id="container">
+        <div id="key-visual">
+            <h1 style="letter-spacing: 0.25em;">PAGE<span class="space"> </span>NOT<span class="space"> </span>FOUND</h1>
+            <p id="zh" style="letter-spacing: 1.25em; font-size: 22px;">未找到您要访问的页面</p>
+        </div>
+    </div>
+    <footer>
+        <a href="mailto:mail@daspoet.com">mail@daspoet.com</a>
+    </footer>
 
-			.error h1, .error p{
-				font-weight: normal;
-				text-align: center;
-				color: rgba(30,30,30,0.75);
-			}
+    <script>
+        if (navigator.appVersion.indexOf("Win") != -1) document.getElementById('zh').classList.add('win');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49553318-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-49553318-1');
+    </script>
 
-			.key-visual {
-				margin-top: -50px;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="error">
-			<div class="key-visual">
-				<h1>Page Not Found.</h1>
-				<p><a href="http://www.dreamygoal.com">Back to the Home Page</a></p>
-			</div>
-		</div>
-	</body>
+</body>
+
 </html>
