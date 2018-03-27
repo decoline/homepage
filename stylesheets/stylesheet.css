@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'Lato';
-    src: url('./fonts/Lato-Light.ttf') format('truetype');
+    src: url('../fonts/Lato-Light.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Lato';
-    src: url('./fonts/Lato-Regular.ttf') format('truetype');
+    src: url('../fonts/Lato-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Barlow';
-    src: url('./fonts/BarlowCondensedBold.ttf') format('truetype');
+    src: url('../fonts/BarlowCondensedBold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
@@ -22,7 +22,7 @@
 
 @font-face {
     font-family: 'Barlow';
-    src: url('./fonts/BarlowCondensedExtraBold.ttf') format('truetype');
+    src: url('../fonts/BarlowCondensedExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
 }
@@ -41,7 +41,7 @@ html {
 
 body {
     margin: 0;
-    background: url(./images/bg.jpg) no-repeat;
+    background: url(../images/bg.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -135,7 +135,7 @@ header {
 
 #key-visual p.win {
     color: rgba(255, 255, 255, 0);
-    background: url(./images/hello-word.svg) no-repeat center;
+    background: url(../images/hello-word.svg) no-repeat center;
     background-position: 46%;
     background-size: 36%;
 }
