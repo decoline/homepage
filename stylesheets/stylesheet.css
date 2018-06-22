@@ -119,19 +119,19 @@ header {
 }
 
 #key-visual h1 {
-    font: 700 72px/1em Barlow, sans-serif;
-    letter-spacing: 0.65em;
+    font: 700 90px/1em Barlow, sans-serif;
+    letter-spacing: 0.5em;
     /*transform: scale(1, 1.05);*/
     color: #fff;
 }
 
 #key-visual p {
     margin-top: 50px;
-    font-size: 28px;
-    font-weight: normal;
+    font-size: 26px;
+    font-weight: bold;
     background-size: contain;
     color: rgba(255, 255, 255, 1);
-    letter-spacing: 2.5em;
+    letter-spacing: 2.2em;
 }
 
 #key-visual p.win {
