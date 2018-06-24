@@ -135,8 +135,9 @@ header {
 }
 
 #key-visual p.win {
-    color: rgba(255, 255, 255, 0);
-    background: url(../images/hello-world.svg) no-repeat center;
+    font-weight: 400;
+/*    color: rgba(255, 255, 255, 0);*/
+/*    background: url(../images/hello-world.svg) no-repeat center;*/
     background-position: 46%;
     background-size: 36%;
 }
@@ -238,8 +239,9 @@ footer > a:hover {
     }
     #key-visual p {
         font-size: 16px;
-        margin: 32px 0 0 14px;
+        font-weight: normal;
         letter-spacing: 2.0em;
+        margin: 32px 0 0 14px;
     }
     footer {
         margin-bottom: 28px;
