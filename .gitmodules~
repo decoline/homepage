@@ -1,6 +1,0 @@
-[submodule "about"]
-	path = about
-	url = git@github.com:decoline/about.git
-[submodule "blog"]
-	path = blog
-	url = git@github.com:decoline/blog.git
