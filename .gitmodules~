@@ -1,6 +1,6 @@
 [submodule "about"]
 	path = about
-	url = git@github.com:motonano/about.daspoet.com.git
+	url = git@github.com:decoline/about.git
 [submodule "blog"]
 	path = blog
-	url = git@github.com:motonano/blog.daspoet.com.git
+	url = git@github.com:decoline/blog.git
