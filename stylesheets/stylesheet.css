@@ -61,16 +61,14 @@ header {
     width: 100%;
 }
 
-.follow-sns {
+header .network-services {
+    padding: 8px 16px 0 0;
     float: right;
-    padding: 16px 14px 0 0;
-    display: -webkit-box;
-    -webkit-box-orient: horizontal;
-    -webkit-box-align: center;
 }
 
-.follow-sns p {
-    margin-right: 5px;
+.network-services {
+    display: flex;
+    align-items: baseline;
 }
 
 .social {
@@ -87,15 +85,20 @@ header {
 
 .icon-facebook {
     font-size: 24px;
-    margin-left: 4px;
+    margin-left: 10px;
 }
 
 .icon-google-plus-square {
     margin-left: 2px;
 }
 
+.icon-envelope {
+    font-size: 24px;
+    top: -2px;
+    position: relative;
+}
+
 .icon-weibo {
-    margin-left: 7px;
     font-size: 28px;
 }
 
@@ -147,19 +150,32 @@ footer {
     bottom: 0;
     width: 100%;
     margin-bottom: 50px;
-    font-size: 14px;
+}
+
+footer > p {
+    margin: 0;
+    font-size: 12px;
     text-align: center;
     font-weight: normal;
+    color: rgba(255, 255, 255, 0.75);
 }
 
-footer > a {
-    color: rgba(255, 255, 255, 0.75) !important;
-    text-decoration: none !important;
+footer .network-services {
+    display: none;
 }
 
-footer > a:hover {
-    color: rgba(255, 255, 255, 0.95) !important;
+footer .social {
+  display: block;
+  float: right;
+  min-width: 22px;
+  margin: 12px;
+  padding: 8px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.15);
+  font-size: 22px;
+  color:  rgba(255, 255, 255, 0.75);
 }
+
 
 
 @media (max-width: 1024px) and (min-width: 881px)  {
@@ -223,7 +239,7 @@ footer > a:hover {
     body {
         background-image: url(../images/bg-blurred.jpg);
     }
-    .follow-sns {
+    header .network-services {
         display: none;
     }
     #key-visual {
@@ -244,13 +260,23 @@ footer > a:hover {
         margin: 32px 0 0 14px;
     }
     footer {
-        margin-bottom: 28px;
+        margin-bottom: 120px;
+    }
+    footer > p {
+        display: none;
+    }
+    footer .network-services {
+        display: flex;
+        justify-content: center;
+    }
+    footer .icon-envelope {
+        font-size: 20px;
     }
 }
 
 @media (max-width: 380px) {
     #key-visual {
-        margin: -20px 0 0 10px;
+        margin: -60px 0 0 10px;
     }
     #key-visual h1 {
         font-size: 26px;
@@ -262,13 +288,13 @@ footer > a:hover {
     }
     footer {
         font-size: 12px;
-        margin-bottom: 38px
+        margin-bottom: 80px
     }
 }
 
 @media (max-width: 320px) {
     #key-visual {
-        margin: -20px 0 0 8px;
+        margin: -30px 0 0 8px;
     }
     #key-visual h1 {
         font-size: 24px;
