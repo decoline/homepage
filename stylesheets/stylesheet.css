@@ -242,7 +242,7 @@ footer .social {
         display: none;
     }
     #key-visual {
-        margin: -20px 0 0 12px;
+        margin: -60px 0 0 12px;
     }
     #key-visual h1 {
         font-size: 30px;
@@ -257,6 +257,9 @@ footer .social {
         font-weight: normal;
         letter-spacing: 2.0em;
         margin: 32px 0 0 14px;
+    }
+    #zh {
+        display: none;
     }
     footer {
         margin-bottom: 120px;
@@ -275,7 +278,7 @@ footer .social {
 
 @media (max-width: 380px) {
     #key-visual {
-        margin: -60px 0 0 10px;
+        margin: -80px 0 0 10px;
     }
     #key-visual h1 {
         font-size: 26px;
@@ -293,7 +296,7 @@ footer .social {
 
 @media (max-width: 320px) {
     #key-visual {
-        margin: -30px 0 0 8px;
+        margin: -50px 0 0 8px;
     }
     #key-visual h1 {
         font-size: 24px;
