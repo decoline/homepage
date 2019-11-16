@@ -149,7 +149,7 @@ footer {
     margin-bottom: 50px;
     font-size: 14px;
     text-align: center;
-    font-weight: 200;
+    font-weight: normal;
 }
 
 footer > a {
@@ -245,7 +245,6 @@ footer > a:hover {
     }
     footer {
         margin-bottom: 28px;
-        font-weight: normal;
     }
 }
 
