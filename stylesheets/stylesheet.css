@@ -76,6 +76,7 @@ header .network-services {
     margin: 12px;
     color: #fff;
     opacity: 0.85;
+    text-align: center;
     text-decoration: none !important;
 }
 
@@ -165,14 +166,12 @@ footer .network-services {
 }
 
 footer .social {
-  display: block;
-  float: right;
+  font-size: 22px;
   min-width: 22px;
   margin: 12px;
   padding: 8px;
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.15);
-  font-size: 22px;
   color:  rgba(255, 255, 255, 0.75);
 }
 
