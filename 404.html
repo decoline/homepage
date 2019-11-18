@@ -2,258 +2,97 @@
 <html>
 
 <head>
-	<title>Page Not Found</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-	<style type="text/css">
-		@font-face {
-		    font-family: 'Lato';
-		    src: url('./fonts/Lato-Light.ttf') format('truetype');
-		    font-weight: 200;
-		    font-style: normal;
-		}
-
-		@font-face {
-		    font-family: 'Lato';
-		    src: url('./fonts/Lato-Regular.ttf') format('truetype');
-		    font-weight: normal;
-		    font-style: normal;
-		}
-
-		@font-face {
-		    font-family: 'Barlow';
-		    src: url('./fonts/BarlowCondensedBold.ttf') format('truetype');
-		    font-weight: 700;
-		    font-style: normal;
-		}
-
-
-		@font-face {
-		    font-family: 'Barlow';
-		    src: url('./fonts/BarlowCondensedExtraBold.ttf') format('truetype');
-		    font-weight: 800;
-		    font-style: normal;
-		}
-
-		html,
-		body {
-		    width: 100%;
-		    height: 100%;
-		    font-family: lato, helvetica, roboto, calibri, pingfang sc, hiragino sans gb, noto sans cjk sc, microsoft yahei, sans-serif;
-		    color: rgba(255, 255, 255, 0.85);
-		}
-
-		html {
-		    background: #FDFDFD;
-		}
-
-		body {
-		    margin: 0;
-		    background: url(./images/bg.jpg) no-repeat;
-		    background-size: cover;
-		}
-
-		h1 {
-		    margin: 0;
-		}
-
-		a:-webkit-any-link {
-		    color: inherit;
-		    text-decoration: none;
-		}
-
-		header {
-		    position: absolute;
-		    top: 0;
-		    width: 100%;
-		}
-
-		.follow-sns {
-		    float: right;
-		    padding: 16px 14px 0 0;
-		    display: -webkit-box;
-		    -webkit-box-orient: horizontal;
-		    -webkit-box-align: center;
-		}
-
-		.follow-sns p {
-		    margin-right: 5px;
-		}
-
-		.social {
-		    font-size: 27px;
-		    margin: 12px;
-		    color: #fff;
-		    opacity: 0.85;
-		    text-decoration: none !important;
-		}
-
-		.social:hover {
-		    opacity: 1;
-		}
-
-		.icon-facebook {
-		    font-size: 24px;
-		    margin-left: 4px;
-		}
-
-		.icon-google-plus-square {
-		    margin-left: 2px;
-		}
-
-		.icon-weibo {
-		    margin-left: 7px;
-		    font-size: 28px;
-		}
-
-		#container {
-		    width: 100%;
-		    height: 100%;
-		    display: flex;
-		    flex-direction: column;
-		    align-items: center;
-		    align-content: center;
-		    justify-content: center;
-		}
-
-		#key-visual {
-		    margin: 20px 0 0 36px;
-		}
-
-		#key-visual h1,
-		#key-visual p {
-		    text-align: center;
-		}
-
-		#key-visual h1 {
-		    font: 700 56px/1em Barlow, sans-serif;
-		    letter-spacing: 0.5em;
-		    /*transform: scale(1, 1.05);*/
-		    color: #fff;
-		}
-
-		#key-visual p {
-		    margin-top: 50px;
-		    font-size: 18px;
-		    font-weight: normal;
-		    background-size: contain;
-		    color: rgba(255, 255, 255, 0.85);
-		    letter-spacing: 1.5em;
-		}
-
-		footer {
-		    position: absolute;
-		    bottom: 0;
-		    width: 100%;
-		    margin-bottom: 50px;
-		    font-size: 14px;
-		    text-align: center;
-		    font-weight: 200;
-		}
-
-		footer > a {
-		    color: rgba(255, 255, 255, 0.75) !important;
-		    text-decoration: none !important;
-		}
-
-		footer > a:hover {
-		    color: rgba(255, 255, 255, 0.95) !important;
-		}
-
-		@media (max-width: 768px) {
-		    #key-visual {
+		<title>404 Page Not Found</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+		<link rel="stylesheet" href="stylesheets/stylesheet.css">
+		<link rel="stylesheet" href="stylesheets/iconstyle.css">
+		<style type="text/css">
+		@media (max-width: 880px) and (min-width: 701px) {
+		    .page-not-found .key-visual {
 		        margin: -40px 0 0 20px;
 		    }
-		    #key-visual h1 {
-		        font-size: 56px;
+		    .page-not-found .key-visual h1 {
+		        font-size: 42px;
 		        transform: scale(1, 1);
 		    }
-		    #key-visual p {
-		        font-size: 28px;
+		    .page-not-found .key-visual p {
+		        font-size: 16px;
 		        margin: 36px 0 0 10px;
 		    }
 		}
-
+		@media (max-height: 420px) and (max-width: 830px), (max-width: 600px) and (min-width: 421px) {
+				.page-not-found .key-visual h1 {
+						font-size: 32px;
+				}
+				.page-not-found .key-visual p {
+				    font-size: 12px;
+						margin-top: 22px;
+				}
+		}
 		@media (max-width: 420px) {
-		    .follow-sns {
-		        display: none;
-		    }
-		    #key-visual {
-		        margin: -20px 0 0 12px;
-		    }
-		    #key-visual h1 {
-		        font-size: 24px;
+		    .page-not-found .key-visual h1 {
+		        font-size: 26px;
 		        margin-left: 8px;
 		    }
-		    #key-visual h1 span.space {
+		    .page-not-found .key-visual h1 span.space {
 		        font-size: 0.5em;
 		        letter-spacing: 0.8em;
 		    }
-		    #key-visual p {
+		    .page-not-found .key-visual p {
 		        font-size: 12px;
 		        margin: 32px 0 0 14px;
 		        letter-spacing: 2.0em;
 		    }
-		    footer {
-		        margin-bottom: 28px;
-		        font-weight: normal;
-		    }
 		}
 
 		@media (max-width: 380px) {
-		    #key-visual {
-		        margin: -20px 0 0 10px;
+		    .page-not-found .key-visual h1 {
+		        font-size: 24px;
 		    }
-		    #key-visual h1 {
-		        font-size: 20px;
-		    }
-		    #key-visual p {
-		        font-size: 12px;
+		    .page-not-found .key-visual p {
+		        font-size: 10px;
 		        margin: 28px 0 0 10px;
 		        letter-spacing: 1.85em;
-		    }
-		    footer {
-		        font-size: 12px;
-		        margin-bottom: 38px
 		    }
 		}
 
 		@media (max-width: 320px) {
-		    #key-visual {
-		        margin: -20px 0 0 8px;
+		    .page-not-found .key-visual h1 {
+		        font-size: 21px;
 		    }
-		    #key-visual h1 {
-		        font-size: 22px;
-		    }
-		    #key-visual p {
-		        font-size: 14px;
+		    .page-not-found .key-visual p {
+		        font-size: 9px;
 		        margin: 26px 0 0 8px;
 		        letter-spacing: 1.65em;
 		    }
 		}
-
-    </style>
+		</style>
 </head>
 
-<body>
+<body class="page-not-found">
     <header>
-        <div class="follow-sns">
+        <div class="network-services">
             <a href="http://twitter.com/dreamygoal" target="_blank" class="social icon-twitter"></a>
             <a href="http://facebook.com/dreamygoal" target="_blank" class="social icon-facebook"></a>
-            <!-- <a href="http://weibo.com/dreamygoal" target="_blank" class="social icon-weibo"></a> -->
-            <a href="http://linkedin.com/in/thgao" target="_blank" class="social icon-linkedin-square"></a>
-            <a href="http://google.com/+dreamygoal" target="_blank" class="social icon-google-plus-square"></a>
+            <a href="http://weibo.com/dreamygoal" target="_blank" class="social icon-weibo"></a>
+            <!-- <a href="http://linkedin.com/in/thgao" target="_blank" class="social icon-linkedin-square"></a> -->
         </div>
     </header>
-    <div id="container">
-        <div id="key-visual">
+    <div class="container">
+        <div  class="key-visual">
             <h1>PAGE<span class="space"> </span>NOT<span class="space"> </span>FOUND</h1>
-            <p>未找到您想要访问的页面</p>
+            <p  class="zh">未找到您要访问的页面</p>
         </div>
     </div>
     <footer>
-        <a href="mailto:mail@daspoet.com">mail@daspoet.com</a>
-</footer>
+        <p>&copy;<script type="text/javascript">document.write(new Date().getFullYear());</script> DREAMYGOAL.COM</p>
+        <div class="network-services">
+            <a href="http://twitter.com/dreamygoal" target="_blank" class="social icon-twitter"></a>
+            <a href="http://facebook.com/dreamygoal" target="_blank" class="social icon-facebook"></a>
+            <a href="http://weibo.com/dreamygoal" target="_blank" class="social icon-weibo"></a>
+        </div>
+    </footer>
 
 </body>
 
