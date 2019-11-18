@@ -32,11 +32,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: lato, helvetica, roboto, calibri, pingfang sc, hiragino sans gb, noto sans cjk sc, microsoft yahei, sans-serif;
-    color: rgba(255, 255, 255, 0.85);
-}
-
-html {
-    background: #FDFDFD;
+    color: #fff;
 }
 
 body {
@@ -74,7 +70,6 @@ header .network-services {
 .social {
     font-size: 27px;
     margin: 12px;
-    color: #fff;
     opacity: 0.85;
     text-align: center;
     text-decoration: none !important;
@@ -107,9 +102,7 @@ header .network-services {
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    align-content: center;
     justify-content: center;
 }
 
@@ -126,7 +119,6 @@ header .network-services {
     font: 700 90px/1em Barlow, sans-serif;
     letter-spacing: 0.5em;
     /*transform: scale(1, 1.05);*/
-    color: #fff;
 }
 
 .key-visual p {
@@ -134,7 +126,6 @@ header .network-services {
     font-size: 26px;
     font-weight: bold;
     background-size: contain;
-    color: rgba(255, 255, 255, 1);
     letter-spacing: 2.2em;
 }
 
@@ -169,7 +160,7 @@ footer > p {
     font-size: 12px;
     text-align: center;
     font-weight: normal;
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.35);
 }
 
 footer .network-services {
